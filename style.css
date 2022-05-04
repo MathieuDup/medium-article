@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap');
+
+body {
+  color: #30638E;
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+  margin: 0;
+}
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+h2 {
+  color: #EDAE49;
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+}
+
+.banner {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
+  url("https://picsum.photos/1000/500?random=1");
+  background-size: cover;
+  color: #f7f7f7;
+  padding: 50px 0;
+  font-family: 'Oswald', sans-serif;
+}
+.banner h1 {
+  font-size: 40px;
+}
+.banner p {
+  font-size: 32px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #d9d9d9;
+}
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+.link {
+  background-image: linear-gradient(to bottom, #d36f7c2d, #d36f7c2d);
+  color: #008398;
+  font-weight: lighter;
+  font-size: 24px;
+}
+.link:hover {
+  background-image: linear-gradient(to bottom, #d65f6f7a, #d65f6f7a);
+}
+
+@media(max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width: 750px) {
+  .container {
+    width: 450px;
+  }
+}
+@media(max-width: 500px) {
+  .container {
+    width: 350px;
+  }
+  .banner {
+    padding: 50px 0;
+  }
+  .banner h1 {
+    font-size: 32px;
+  }
+  .banner p {
+    font-size: 24px;
+  }
+}
